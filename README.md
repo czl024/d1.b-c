@@ -1,2 +1,9 @@
-# d1.b-c
-i love assignments
+Key Requirements
+1) 
+2) 
+3) 
+4) 
+5) 
+6) 
+7) 
+8) 
