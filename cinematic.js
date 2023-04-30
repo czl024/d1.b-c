@@ -14,7 +14,7 @@ class Intro0 extends Phaser.Scene{
 
         t.setOrigin(0.5);
 
-        this.input.on('pointerdown', () => this.scene.start('title'));
+        this.input.on('pointerdown', () => this.scene.start('i1'));
     }
 }
 
@@ -369,6 +369,7 @@ class Title extends Phaser.Scene{
     }
 
     create(){
+        this.add.rectangle(W2, H2, WIDTH, HEIGHT, '0x4775AA')
         let click = this.sound.add('click');
         click.loop = false;
         let fwip = this.sound.add('fwip');
