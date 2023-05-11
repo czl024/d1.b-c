@@ -49,9 +49,9 @@ class Intro2 extends Phaser.Scene{
     constructor(){super('i2');}
 
     preload(){
-        this.load.image('bg', '/assets/bg1.png');
-        this.load.image('helm', '/assets/helmet.png');
-        this.load.image('hair', '/assets/hair side.png');
+        this.load.image('bg', 'assets/bg1.png');
+        this.load.image('helm', 'assets/helmet.png');
+        this.load.image('hair', 'assets/hair side.png');
     }
 
     create(){
@@ -215,9 +215,9 @@ class Intro4 extends Phaser.Scene{
     constructor(){super('i4');}
 
     preload(){
-        this.load.image('helmtop', '/assets/helmtop.png');
-        this.load.image('hf', '/assets/hair front.png');
-        this.load.image('hb', '/assets/hair back.png');
+        this.load.image('helmtop', 'assets/helmtop.png');
+        this.load.image('hf', 'assets/hair front.png');
+        this.load.image('hb', 'assets/hair back.png');
     }
 
     create(){
@@ -266,10 +266,10 @@ class Intro5 extends Phaser.Scene{
     constructor(){super('i5');}
 
     preload(){
-        this.load.image('hairflow', '/assets/hair flow.png');
-        this.load.image('bg2', '/assets/bg2.png');
-        this.load.image('helm', '/assets/helmet.png');
-        this.load.audio('boo', '/assets/audio/boo.mp3');
+        this.load.image('hairflow', 'assets/hair flow.png');
+        this.load.image('bg2', 'assets/bg2.png');
+        this.load.image('helm', 'assets/helmet.png');
+        this.load.audio('boo', 'assets/audio/boo.mp3');
     }
 
     create(){
@@ -360,12 +360,12 @@ class Title extends Phaser.Scene{
     constructor(){super('title');}
 
     preload(){
-        this.load.image('title1', '/assets/grow some.png');
-        this.load.image('title2', '/assets/balls.png');
+        this.load.image('title1', 'assets/grow some.png');
+        this.load.image('title2', 'assets/balls.png');
 
-        this.load.audio('click', '/assets/audio/click.wav');
-        this.load.audio('fwip', '/assets/audio/fwip.wav');
-        this.load.audio('thud', '/assets/audio/thud.wav');
+        this.load.audio('click', 'assets/audio/click.wav');
+        this.load.audio('fwip', 'assets/audio/fwip.wav');
+        this.load.audio('thud', 'assets/audio/thud.wav');
     }
 
     create(){
